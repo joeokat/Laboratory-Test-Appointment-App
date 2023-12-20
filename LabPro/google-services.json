@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "273337066226",
+    "project_id": "labpro-e0602",
+    "storage_bucket": "labpro-e0602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273337066226:android:2dcf9500199a34fa30666b",
+        "android_client_info": {
+          "package_name": "com.techpsalmist.LabPro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0szhTBzrB-WYbHHf7r6RjOWWqxCv8Dok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
