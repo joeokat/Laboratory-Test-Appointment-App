@@ -31,13 +31,13 @@ const AccountAccess = ({ navigation }) => {
       <View style={accountAccessStyle.buttonsContainer}>
         <TouchableOpacity
           style={accountAccessStyle.loginBtn}
-          onPress={() => navigation.navigate("LoginScreen")}
+          onPress={() => navigation.replace("LoginScreen")}
         >
           <Text style={accountAccessStyle.loginText}>LOGIN</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={accountAccessStyle.signUpBtn}
-          onPress={() => navigation.navigate("SignupScreen")}
+          onPress={() => navigation.replace("SignupScreen")}
         >
           <Text style={accountAccessStyle.signUpText}>SIGN UP</Text>
         </TouchableOpacity>

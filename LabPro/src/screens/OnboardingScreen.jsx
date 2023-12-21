@@ -135,7 +135,6 @@ const OnboardingScreen = ({ navigation }) => {
     <SafeAreaView
       style={{ flex: 1, backgroundColor: "#fff", alignItems: "center" }}
     >
-      <StatusBar backgroundColor={COLORS.primary} />
       <FlatList
         ref={ref}
         onMomentumScrollEnd={updateCurrentSlideIndex}
