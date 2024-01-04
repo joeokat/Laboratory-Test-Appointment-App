@@ -27,10 +27,10 @@ const LoginScreen = ({ navigation }) => {
       .catch((error) => {
         if (email === "") {
           Alert.alert("Login Error", "Enter your email");
-        } else if (password == "") {
+        } else if (password === "") {
           Alert.alert("Login Error", "Enter password");
         } else if (!auth?.email) {
-          Alert.alert("Login Error", "Email doesnot exist");
+          Alert.alert("Login Error", "Email does not exist");
         } else if (!auth?.password) {
           Alert.alert("Login Error", "Wrong password");
         } else {
